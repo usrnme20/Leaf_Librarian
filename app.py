@@ -27,11 +27,6 @@ def get_prediction(image_data):
 st.title("Leaf Librarian")#change according to your project
 #setting up the subheader
 st.subheader("Upload a picture of a leaf you want to identify!")#change according to your project
-[theme]
-base="dark"
-backgroundColor="#0d502b"
-secondaryBackgroundColor="#0e2f03"
-
 
 #file uploader
 image = st.file_uploader(label="Upload an image",accept_multiple_files=False, help="Upload an image to classify them")
